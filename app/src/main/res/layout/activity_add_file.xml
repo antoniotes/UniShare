@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/menuBackground"
+    tools:context=".AddFileActivity"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/testoSfoglia"
+        android:text="Inserisci un PDFFile pdf di massimo 10MB"
+        android:textColor="@color/white"
+        android:fontFamily="@font/montserratbold"
+        android:textSize="20sp"
+        android:layout_centerHorizontal="true"
+        />
+
+    <Button
+        android:id="@+id/browsefile"
+        android:layout_width="wrap_content"
+        android:layout_below="@id/testoSfoglia"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/white"
+        android:fontFamily="@font/montserratbold"
+        android:ems="10"
+        android:gravity="center"
+        android:text="@string/browse" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/testoSpinnerInsegnamenti"
+        android:layout_below="@id/browsefile"
+        android:text="Seleziona un insegnamento"
+        android:textColor="@color/white"
+        android:fontFamily="@font/montserratbold"
+        android:textSize="20sp"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        />
+    <Spinner
+        android:id="@+id/spinnerInsegnamenti"
+        android:layout_width="300dp"
+        android:textAlignment="center"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/testoSpinnerInsegnamenti"
+        android:background="@drawable/edit_text_background"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/montserratbold"
+        android:gravity="center" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/testoSpinnerProfessori"
+        android:layout_below="@id/spinnerInsegnamenti"
+        android:text="Seleziona un professore per il relativo insegnamento"
+        android:textColor="@color/white"
+        android:fontFamily="@font/montserratbold"
+        android:textSize="20sp"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        />
+    <Spinner
+        android:id="@+id/spinnerProfessori"
+        android:layout_width="300dp"
+        android:textAlignment="center"
+        android:fontFamily="@font/montserratbold"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edit_text_background"
+        android:layout_below="@+id/testoSpinnerProfessori"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:gravity="center" />
+
+
+    <Button
+        android:id="@+id/insertButton"
+        android:layout_width="wrap_content"
+        android:fontFamily="@font/montserratbold"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/spinnerProfessori"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="@string/buttonAddFile" />
+
+</RelativeLayout>

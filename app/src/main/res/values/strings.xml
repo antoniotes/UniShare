@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">UniShare</string>
+    <string name="sottotitolo">Un\'app per la condivisione di appunti</string>
+    <string name="about">Il Progetto</string>
+
+    <string name="logintitle">Accedi</string>
+    <string name="username">Username</string>
+    <string name="mail">Mail</string>
+    <string name="loginbtn">LOGIN</string>
+    <string name="password">Password</string>
+    <string name="forgotpass">Password Dimenticata?</string>
+    <string name="signupopt">Registrati Con:</string>
+
+
+    <string name="welcome">Benvenuto</string>
+    <string name="registrati">Registrati</string>
+    <string name="esci">Sign Out</string>
+    <string name="test">Test</string>
+    <string name="title_activity_menu">MenuActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_logout">Logout</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+
+    <!--Facebook Required Strings-->
+    <string name="facebook_app_id">558505412426684</string>
+    <string name="fb_login_protocol_scheme">fb1234</string>
+    <string name="facebook_client_token">a46e3fe9a6823ef69f6475edec5f0e39</string>
+
+    <string name="homefragmenttitle">Lista Insegnamenti</string>
+
+    <string name="buttonAddFile">Carica File</string>
+    <string name="browse">Sfoglia</string>
+
+
+    <string name="ciao">Ciao</string>
+    <string name="insegnamenti">Cerca File</string>
+    <string name="DIEEI">DIEEI</string>
+    <string name="caricaFile">Carica File</string>
+    <string name="cerca">Cerca...</string>
+    <string name="loremipsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore...</string>
+    <string name="preferiti">Insegnamenti Preferiti</string>
+
+
+
+</resources>

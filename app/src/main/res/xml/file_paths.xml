@@ -1,0 +1,6 @@
+<paths>
+    <PDFFiles-path name="PDFFiles" path="/" />
+    <external-path name="external_files" path="." />
+    <external-path name="external_storage_root" path="/" />
+    <cache-path name="cache" path="." />
+</paths>

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="top_blue">#264653</color>
+    <color name="mid_green">#2a9d8f</color>
+    <color name="yellow">#e9c46a</color>
+    <color name="mid_orange">#f4a261</color>
+    <color name="orange">#e76f51</color>
+    <color name="mypurple">#632dcf</color>
+    <color name="purple2">#931ce4</color>
+    <color name="overlay_grey">#30ffffff</color>
+
+
+    <!--    APPLE PALETTE-->
+    <color name="apple_gray">#e8e8e8</color>
+    <color name="apple_mint">#b6d7a8</color>
+    <color name="apple_dark_grey">#333333</color>
+    <color name="apple_pink">#f9c7cc</color>
+    <color name="apple_azure">#b4e1f6</color>
+    <color name="apple_celeste">#007AFF</color>
+    <color name="apple_dark_celeste">#0053B3</color>
+    <color name="apple_lavander">#d6bddd</color>
+
+    <!--    SPOTIFY PALETTE-->
+    <color name="spotify_grey">#b3b3b3</color>
+    <color name="spotify_neon">#1d8954</color>
+    <color name="spotify_green">#0b8f4f</color>
+<!--    VERDEEEEEE    &lt;!&ndash; Colore primario &ndash;&gt;
+    <color name="colorPrimary">#1DB954</color>
+
+    &lt;!&ndash; Variante del colore primario &ndash;&gt;
+    <color name="colorPrimaryVariant">#121212</color>
+
+    &lt;!&ndash; Colore di sfondo &ndash;&gt;
+    <color name="colorBackground">#121212</color>
+
+    &lt;!&ndash; Colore del testo sul colore di sfondo &ndash;&gt;
+    <color name="colorOnBackground">#FFFFFF</color>
+
+    &lt;!&ndash; Colore del testo sul colore primario &ndash;&gt;
+    <color name="colorOnPrimary">#FFFFFF</color>
+
+    &lt;!&ndash; Colore del testo disabilitato &ndash;&gt;
+    <color name="colorDisabled">#717171</color>
+
+    &lt;!&ndash; Colore dell'icona di navigazione &ndash;&gt;
+    <color name="colorNavigationIcon">#FFFFFF</color>
+
+    &lt;!&ndash; Colore della barra di stato &ndash;&gt;
+    <color name="colorStatusBar">#121212</color>
+
+    &lt;!&ndash; Colore della barra di navigazione &ndash;&gt;
+    <color name="colorNavigationBar">#121212</color>-->
+
+<!--    &lt;!&ndash; Colore primario (blu neon) &ndash;&gt;
+    <color name="colorPrimary">#1DB1F7</color>
+
+    &lt;!&ndash; Variante del colore primario (blu scuro) &ndash;&gt;
+    <color name="colorPrimaryVariant">#121212</color>
+
+    &lt;!&ndash; Colore di sfondo (blu scuro) &ndash;&gt;
+    <color name="colorBackground">#121212</color>
+
+    &lt;!&ndash; Colore del testo sul colore di sfondo &ndash;&gt;
+    <color name="colorOnBackground">#FFFFFF</color>
+
+    &lt;!&ndash; Colore del testo sul colore primario &ndash;&gt;
+    <color name="colorOnPrimary">#FFFFFF</color>
+
+    &lt;!&ndash; Colore del testo disabilitato &ndash;&gt;
+    <color name="colorDisabled">#717171</color>
+
+    &lt;!&ndash; Colore dell'icona di navigazione &ndash;&gt;
+    <color name="colorNavigationIcon">#FFFFFF</color>
+
+    &lt;!&ndash; Colore della barra di stato &ndash;&gt;
+    <color name="colorStatusBar">#121212</color>
+
+    &lt;!&ndash; Colore della barra di navigazione &ndash;&gt;
+    <color name="colorNavigationBar">#121212</color>-->
+
+    <!-- Colore primario (arancione neon) -->
+    <color name="colorPrimary">#FFA500</color>
+    <color name="colorPrimaryDark">#ff8c00</color>
+    <color name="colorPrimaryLight">#ffdab9</color>
+
+    <!-- Variante del colore primario (arancione scuro) -->
+    <color name="colorPrimaryVariant">#C17900</color>
+
+    <!-- Colore di sfondo (nero) -->
+    <color name="colorBackground">#121212</color>
+
+    <!-- Colore del testo sul colore di sfondo -->
+    <color name="colorOnBackground">#FFFFFF</color>
+
+    <!-- Colore del testo sul colore primario -->
+    <color name="colorOnPrimary">#FFFFFF</color>
+
+    <!-- Colore del testo disabilitato -->
+    <color name="colorDisabled">#717171</color>
+
+    <!-- Colore dell'icona di navigazione -->
+    <color name="colorNavigationIcon">#FFFFFF</color>
+
+    <!-- Colore della barra di stato -->
+    <color name="colorStatusBar">#000000</color>
+
+    <!-- Colore della barra di navigazione -->
+    <color name="colorNavigationBar">#000000</color>
+
+    <color name="hint_text_color">#B2FFFFFF</color>
+    <color name="edit_text_background">#33FF6E3D</color>
+    <color name="edit_text_stroke">#FFA500</color>
+
+    <color name="menuBackground">#1E1E1E</color>
+
+    <color name="folder_orange">#1DB954</color>
+
+
+
+</resources>

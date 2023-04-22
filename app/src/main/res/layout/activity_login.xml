@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/menuBackground"
+    tools:context=".LoginActivity">
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/signin"
+        android:text="@string/logintitle"
+        android:textColor="@color/white"
+        android:textSize="35dp"
+        android:layout_margin="30dp"
+        android:gravity="center"
+        android:fontFamily="@font/montserratbold"/>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/signin"
+        android:id="@+id/logo">
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:src="@drawable/logo3"
+            android:scaleType="fitCenter"
+            app:layout_constraintDimensionRatio="1:0.5"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintVertical_bias="0.3"
+            app:layout_constraintHorizontal_bias="0.5"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/username"
+        android:layout_below="@id/logo"
+        android:background="@drawable/edit_text_background"
+        android:hint="@string/username"
+        android:textColorHint="@color/hint_text_color"
+        android:fontFamily="@font/montserratbold"
+        android:layout_margin="10dp"
+        android:padding="20dp"
+        android:drawableLeft="@drawable/ic_baseline_person_outline_24"
+        android:drawablePadding="20dp"
+        android:theme="@style/EditTextTheme"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/password"
+        android:layout_below="@id/username"
+        android:background="@drawable/edit_text_background"
+        android:hint="@string/password"
+        android:textColorHint="@color/hint_text_color"
+        android:fontFamily="@font/montserratbold"
+        android:layout_margin="10dp"
+        android:padding="20dp"
+        android:drawableLeft="@drawable/ic_baseline_lock_24"
+        android:drawablePadding="20dp"
+        android:inputType="textPassword"
+        />
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/loginbtn"
+        app:cornerRadius="50dp"
+        android:layout_below="@id/password"
+        android:fontFamily="@font/montserratbold"
+        android:text="@string/loginbtn"
+        android:textSize="20sp"
+        android:backgroundTint="@color/colorPrimaryVariant"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/forgotpass"
+        android:layout_below="@id/loginbtn"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/montserratbold"
+        android:textSize="24sp"
+        android:text="@string/forgotpass"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/signupopt"
+        android:text="@string/signupopt"
+        android:textSize="18sp"
+        android:textColor="@color/white"
+        android:fontFamily="@font/montserratbold"
+        android:layout_above="@id/socialicons"
+        android:layout_centerHorizontal="true" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/socialicons"
+        android:gravity="center">
+        <ImageView
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_margin="20dp"
+            android:id="@+id/google_btn"
+            android:src="@drawable/google"/>
+        <ImageView
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_margin="20dp"
+            android:id="@+id/facebook_btn"
+            android:src="@drawable/fb"/>
+        <ImageView
+             android:layout_width="48dp"
+             android:layout_height="48dp"
+             android:layout_margin="20dp"
+             android:id="@+id/newuser_btn"
+             android:src="@drawable/logo4"/>
+    </LinearLayout>
+
+
+
+
+
+
+</RelativeLayout>

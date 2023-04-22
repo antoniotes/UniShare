@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/root_layout"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_PDF"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        app:cardBackgroundColor="@color/menuBackground"
+        app:cardCornerRadius="4dp"
+        android:layout_margin="12dp"
+        app:cardElevation="6dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/PDF_cover"
+            android:scaleType="fitXY"
+            android:src="@drawable/baseline_picture_as_pdf_24"
+            android:backgroundTint="@color/colorPrimaryDark"/>
+    </androidx.cardview.widget.CardView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/titoloPDF"
+        android:textSize="18sp"
+        android:text="PDF 1"
+        android:textStyle="bold"
+        android:layout_marginTop="12dp"
+        android:layout_toRightOf="@id/card_PDF"
+        android:textColor="@color/white"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/insegnamentoPDF"
+        android:maxLines="1"
+        android:textSize="14sp"
+        android:layout_toRightOf="@id/card_PDF"
+        android:layout_below="@id/titoloPDF"
+        android:text="Antonio Tesoriero"
+        android:textColor="@color/white"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/PDFowner"
+        android:maxLines="1"
+        android:textSize="14sp"
+        android:layout_toRightOf="@id/card_PDF"
+        android:layout_below="@id/insegnamentoPDF"
+        android:text="Antonio Tesoriero"
+        android:textColor="@color/white"
+        />
+
+</RelativeLayout>
